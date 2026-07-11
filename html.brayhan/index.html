@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="p-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> < BRAYHAN /> </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="comeco">
+    <header class="cabeçalho">
+        <h1>
+            < BRAYHAN />
+        </h1>
+        <nav>
+            <ul
+                style="list-style: none; display: inline-flex; gap: 100px; position: fixed; top: 20; right: 15px; font-family: 'namioto', cursive;">
+                <li><a href="#comeco"> Início </a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="heroh">
+            <p> Prazer, eu sou o</p>
+            <h2>Brayhan dos Santos</h2>
+            <p class="estudante"> Estudante de programação </p>
+        </div>
+    </section>
+
+    <section class="page2">
+        <h2 id="sobre"> SOBRE MIM</h2>
+        <h3 id="eu"> QUEM SOU EU ?</h3>
+        <p id="quem">Meu nome é Brayhan, tenho 16 anos, nasci na cidade de São Paulo (ZN) e esse é o meu primeiro
+            projeto na área da programação, mas sigo em frente com os estudos para poder melhorar cada vez mais.
+            Meu objetivo é me tornar desenvolvedor de sucesso e ajudar grandes empresas. Além de aprender programação,
+            busco sempre evoluir como pessoa, enfrentando
+            desafios e transformando ideias em soluções. Este é apenas o começo da minha jornada, mas já carrego a
+            vontade de construir um futuro sólido na área de desenvolvimento e contribuir com projetos que façam
+            diferença. Atualmente estou cursando o módulo de javascript, e a próxima
+            tecnologia que eu vou cursar é Python, e futuramente pretendo estudar back-end, além do meu
+            interesse em cybersecurity que também vou me aprofundar.
+            <small> No final tem as minhas redes sociais, vão la e me deem dicas pra fortalecer.</small>
+        </p>
+
+        <h3 id="tecnologias"> TECNOLOGIAS</h3>
+
+        <div><p id="tecnology"> Essas foram as tecnlogias que eu usei para montar o meu site. </p></div>
+        <div class="icones">
+            <img class="icon1" src="htmlimg.png" alt="html" id="html">
+            <img class="icon2" src="cssimg.png" alt="css" id="css">
+            <img class="icons3" src="js.png" alt="javascript">
+        </div>
+        
+        <section id="contatos">
+            <h3> CONTATOS </h3>
+            <div class="botoes">
+                <div><button id="btw"> Whatsapp </button></div>
+                <div><button id="btinsta"> Instagram </button></div>
+                <div><button id="gmail"> Gmail </button> </div>
+                <div><button id="tiktok"> TikTok </button></div>
+            </div>
+            <div>
+                <footer> Todos os direitos reservados/&copy; Brayhan dos Santos </footer>
+            </div>
+        </section>
+    </section>
+
+    <script>
+        alert("ATENÇÃO, ESSE SITE FOI CRIADO POR UM INICIANTE (EU) , ENTÃO POR FAVOR, TOLERE OS ERROS E A MÁ ESTRUTURA DO CÓDIGO, OBRIGADO.");
+
+        document.getElementById("btw").addEventListener("click", function () {
+            window.open("https://wa.me/5511950635375", "_blank");
+
+        });
+
+        document.getElementById("btinsta").addEventListener("click", function () {
+            window.open("https://www.instagram.com/brayhanxz/", "_blank");
+        });
+
+        document.getElementById("gmail").addEventListener("click", function () {
+            window.open("mailto:brayhandossantoss@gmail.com", "_blank");
+        });
+
+        document.getElementById("tiktok").addEventListener("click", function () {
+            window.open("https://www.tiktok.com/@eobrayhann", "_blank");
+        });
+
+    </script>
+    </section>
+</body>
+
+</html>
