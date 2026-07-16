@@ -9,7 +9,7 @@ body {
 .hero {
     position: relative;
     font-family: 'poppins', sans-serif;
-    background-image: url('img.tech.code.png');
+    background-image: url('img/img.tech.code.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body {
     z-index: 1;
 }
 
-.cabeçalho {
+.cabecalho {
     position: fixed;
     display: flex;
     left: 0;
