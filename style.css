@@ -324,9 +324,16 @@ gap:20px;
 position: static;
 text-align: center;
     }
+
+    .hero {
+        padding-top: 120px;
+        min-height: 100vh;
+    }
     
     h2 { font-size: 24px; }
     p { font-size: 16px;}
+    #sobre { font-size: 60px;}
+    #contatos h3 { font-size: 60px; }
 
     .icones{ flex-direction: row;
         gap: 20px; }
@@ -348,12 +355,14 @@ text-align: center;
 
 @media (max-width:767px) {
     h2 {
-        font-size: 48px;
+        font-size: 32px;
     }
 
     p {
         font-size: 18px;
     }
+    #sobre { font-size: 100px;}
+    #contatos h3 { font-size: 100px;}
 
     .icones {
         gap: 30px;
