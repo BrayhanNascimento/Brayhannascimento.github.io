@@ -317,4 +317,96 @@ footer {
     font-family: 'Garamond', sans-serif;
 }
 
- 
+@media (max-width:480px) {
+    nav ul {
+        flex-direction: column;
+gap:20px;
+position: static;
+text-align: center;
+    }
+    
+    h2 { font-size: 24px; }
+    p { font-size: 16px;}
+
+    .icones{ flex-direction: row;
+        gap: 20px; }
+
+        .botoes {
+            gap: 15px;
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+        }
+
+        #quem {
+            font-size: 14px;
+            max-width: 90%;
+        }
+}
+
+@media (max-width:767px) {
+    h2 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .icones {
+        gap: 30px;
+    }
+
+    #quem {
+        font-size: 16px;
+        max-width: 85%;
+    }
+}
+
+@media (max-width:1024px) {
+    nav ul {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    h2 { font-size: 32px;}
+    p { font-size: 20px;}
+
+    .icones {
+        gap: 40px;
+    }
+
+    button {
+        width: 180px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 1025px) {
+    nav ul {
+        gap: 100px;
+    }
+
+    h2 { font-size: 40px;}
+    p { font-size: 22px;}
+
+    .icones {
+        gap:60px;
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media ( min-width: 1441px) {
+    h2 { font-size: 50px;}
+    p { font-size: 24px;}
+
+    .icones {
+        gap: 80px;
+    }
+}
